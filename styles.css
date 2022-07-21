@@ -1,8 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Palanquin+Dark:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yantramanav:wght@100;300;400&display=swap');
+
 body {
-  background-color: rgb(12,51,84);
-  color: white;
+  background: #f7f7f7;
+  background-size: 100%;
+  color: black;
+  font-family: 'Sen', sans-serif;
 }
 
-a:visited {
-  color: lightgray;
+.nav {
+  width: 117%;
+  background-color: white;
+  height: 70px;
+  margin-left: -100px;
+  margin-bottom: 30px;
 }
+
+nav {
+  margin-top: -8px;
+  width: 87%;
+  margin-left: 60px;
+  align-items: center;
+}
+
+nav .navbar-left {
+  float: left;
+  cursor: pointer;
+  user-select: none;
+}
+
+nav .navbar-right {
+  float: right;
+}
+
+nav ul li {
+  display: inline;
+}
+
+/* .img-icon {
+  position: relative;
+}
+
+.favorite-icon {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+} */

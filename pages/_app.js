@@ -59,7 +59,7 @@ const theme = createTheme({
   overrides: {
       MuiPaper: {
         rounded: {
-          borderRadius: '20px',
+          borderRadius: '10px',
         },
         elevation1: {
           boxShadow: '0'

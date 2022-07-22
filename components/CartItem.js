@@ -103,7 +103,7 @@ function CartItem({id, name, image_url, price, is_on_sale, sale_price, quantity,
       <Button
           onClick={addQuantity}
           color="secondary"
-          style={{ minWidth: "40px", padding: "0", marginTop: "-45px", border: '2px solid', borderRadius: "10px", display:"flex"}}>+
+          style={{ minWidth: "40px", padding: "0 0 0 0", marginTop: "-45px", border: '2px solid', borderRadius: "10px", display:"flex"}}>+
       </Button>
       <TextField
           variant="outlined"

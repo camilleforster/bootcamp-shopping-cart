@@ -49,7 +49,7 @@ return(
       <div className="header">
         <ul className="navbar-left">
           <Link href="/index" style={{ textDecoration: 'none' }}>
-            <li><Typography variant="h4">random.shop</Typography></li>
+            <li><Typography variant="h4">🪴 plant shop</Typography></li>
           </Link>
         </ul> 
         <ul className="navbar-right">
